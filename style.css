@@ -1,0 +1,34 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+}
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    width: 500px;
+}
+.box:hover {
+    background-color: rgb(88, 28, 122);;
+}
+.box {
+    border-radius: 8px;
+    background-color: rgb(146, 76, 187);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box p {
+    font-size: 4rem;
+    color:aliceblue;
+}
