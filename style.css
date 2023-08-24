@@ -34,6 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .box p {
     font-size: 4rem;
@@ -43,6 +44,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#restart_button {
+    width: 100px;
+    height: 45px;
+    background-color: beige;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#restart_button:hover {
+    background-color: rgb(187, 187, 175);
 }
 .elemento_bloqueado {
     cursor: not-allowed;

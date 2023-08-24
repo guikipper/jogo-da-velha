@@ -71,6 +71,7 @@ restart_button.addEventListener('mousedown',()=>{
     clean()
     reset()
     free_box()
+    winner.innerHTML = ""
 })
 
 function reset() {
